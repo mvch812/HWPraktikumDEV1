@@ -80,7 +80,7 @@ if (countLengthB == 0)
 }
 else
 {
-    int[] B = new int[countLengthB];
+    int[] B = new int[countLengthB]; //Заполняем массив B
     max = 0;
     int indexB = 0;
     index = 0;
@@ -102,7 +102,7 @@ else
 
         index++;
     }
-    Console.WriteLine("Массив B:");
+    Console.WriteLine("Массив B:"); // Печатаем массив B
     index = 0;
     while (index < B.Length)
     {
@@ -111,5 +111,3 @@ else
     }
 }
 
-
-//FillArrayB(A);
