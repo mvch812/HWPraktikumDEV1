@@ -64,15 +64,13 @@ while (index < A.Length)
             if (A[index] <= averageArray(A))
             {
                 countLengthB++;
-                // Console.Write(A[index] + " ");
+                
             }
         }
     }
 
     index++;
 }
-// Console.WriteLine();
-// Console.WriteLine(countLengthB);
 
 if (countLengthB == 0)
 {
